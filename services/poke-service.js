@@ -44,4 +44,7 @@ class PokeService{
         return fetch(url).then(resp => resp.json());
     }
 
+    static getType(url){
+        return fetch(url).then(resp => resp.json());
+    }
 }
